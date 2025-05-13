@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #053b6d;
+    }
+    .card{
+      display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    color: #064680;
+    background-color: #f5edfa;
+    border-radius: 8px;
+    width: 60%;
+    ;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+   
+    button {
+      border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#f5f2f7;
+    background-color: #0c4a88;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 80%;
+    
+    }
+    
+.input-box label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:  #064680
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    font-size: 7px;
+    color: #064680;
+    padding: 0 0.5rem;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: snow;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    color:#043969;
+    padding: 0 0.5rem;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#risco{
+   width: 15.5rem;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+#sexo{
+    background-color: transparent;
+    border: none;
+    width: 60%;
+    font-size: 17px;
+    color: #043969;
+    padding: 0 0.5rem;
+}
+
+#result {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #58046334;
+    padding: 0.75rem 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    padding-left: 300px;
+}
+.title {
+    font-size: 2.25rem;
+    position: relative;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    width: 8rem;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #064680;
+    bottom: 0;
+    left: 0;
+}
+.btn{
+  padding-left: 75px;
+}
+
+/* @media screen and (max-width: 1024px) {
+    #img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #img {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    #img {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .card {
+        width: 95%;
+        height: 90%;
+        border-radius: 0;
+        justify-content: center;
+        margin-left: 10px;
+    
+    }
+    .title {
+        font-size:30px;
+        position: relative;
+    }
+    
+    
+}
